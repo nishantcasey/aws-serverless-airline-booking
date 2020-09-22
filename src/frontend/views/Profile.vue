@@ -133,6 +133,8 @@ export default {
             { label: "Vegatarian", value: "vegetarian", color: "secondary" },
             { label: "Vegan", value: "vegan" },
             { label: "Dairy-free", value: "dairy-free" },
+            { label: "Kosher", value: "kosher" },
+            { label: "Pizza-only", value: "pizza" },
             { label: "Regular", value: "regular" }
           ]
         }
