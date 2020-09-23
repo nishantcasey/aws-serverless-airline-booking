@@ -1,17 +1,17 @@
 {
-    "projectName": "awsserverlessairline",
-    "version": "3.0",
-    "frontend": "javascript",
-    "javascript": {
-        "framework": "vue",
-        "config": {
-            "SourceDir": "src/frontend",
-            "DistributionDir": "src/frontend/dist",
-            "BuildCommand": "npm run-script build",
-            "StartCommand": "npm run-script serve"
-        }
-    },
-    "providers": [
-        "awscloudformation"
-    ]
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "thorndor-prod",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "dist",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "npm run-script start"
+    }
+  }
 }
