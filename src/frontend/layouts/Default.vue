@@ -12,7 +12,7 @@
           <q-icon name="menu" />
         </q-btn>
 
-        <q-toolbar-title class="brand">Thorndor Airlines</q-toolbar-title>
+        <q-toolbar-title class="brand">Thorondor Airlines</q-toolbar-title>
         <q-btn
           flat
           round
